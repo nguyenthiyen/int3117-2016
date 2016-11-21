@@ -26,3 +26,16 @@ Hướng giải quyết:
 	  Ca kiểm thử 5: Giá trị đầu vào (>2) là 6-> trả về kết quả false.
 	  
 	  Ca kiểm thử 6: Giá trị đầu vào là số âm cụ thể là -2-> trả về kết quả false.
+	 Áp dụng tiêu chuẩn MCDC
+Áp dụng tiêu chuẩn MCDC
+Xét điều kiện:
+if((m<2) || (m%2 == 0) && (m != 2))
+if(m == 2 || m == 3)
+No.	m<2	m!=2	m%2	m==2	m==3	kết quả
+1	F	T	T	-	-	F
+2	T	F	T	-	-	F
+3	T	T	F	-	-	T
+4	F	F	T	-	-	T
+5	-	-	-	F	F	F
+6	-	-	-	F	T	T
+7	-	-	-	T	F	T
